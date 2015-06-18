@@ -24,8 +24,8 @@ searchguard.rewrite_get_as_search: true
 # Enable or disable audit logging
 #searchguard.auditlog.enabled: true
 
-# If this is true (default is false) then Searchguard will check if elasticsearch is running as root/windows admin and if so then abort.
-#searchguard.check_for_root: false
+# If this is true (default is true) then Searchguard will check if elasticsearch is running as root/windows admin and if so then abort.
+#searchguard.check_for_root: true
 
 # If this is true (default is false) then allow all HTTP REST requests from nodes loopback (e.g. localhost)
 #searchguard.allow_all_from_loopback: false
